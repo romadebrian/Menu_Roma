@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Mendefinisikan button saat di klik -->
+
+    <!-- Mendefinisikan button saat terfokus -->
+
+    <!-- Mendefinisikan button saat dalam kondisi normal -->
+    <item android:state_pressed="true" android:drawable="@drawable/android2" />
+    <item android:state_focused="true" android:drawable="@drawable/android" />
+    <item android:drawable="@drawable/android" />
+</selector>
