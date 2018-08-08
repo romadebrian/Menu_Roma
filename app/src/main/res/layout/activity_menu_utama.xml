@@ -1,46 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="it.pradita.ac.id.menuroma.MenuUtama">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
     android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10">
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_alignTop="@+id/imageButton2"
-        android:layout_marginEnd="11dp"
-        android:layout_toStartOf="@+id/imageButton2"
-        android:onClick="Profile_Click"
-        android:src="@drawable/btn_user" />
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:onClick="Profile_Click"
+            android:src="@drawable/btn_user" />
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginEnd="25dp"
-        android:layout_marginTop="87dp"
-        android:src="@drawable/tools" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:src="@drawable/tools" />
+    </LinearLayout>
 
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_alignStart="@+id/imageButton"
-        android:layout_below="@+id/imageButton"
-        android:layout_marginTop="20dp"
-        app:srcCompat="@drawable/btn_setting" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            app:srcCompat="@drawable/btn_setting" />
 
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_alignStart="@+id/imageButton2"
-        android:layout_alignTop="@+id/imageButton3"
-        app:srcCompat="@drawable/btn_about" />
-
-
-</RelativeLayout>
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_height="150dp"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            app:srcCompat="@drawable/btn_about" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
