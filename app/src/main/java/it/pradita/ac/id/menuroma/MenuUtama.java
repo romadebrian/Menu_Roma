@@ -18,6 +18,7 @@ public class MenuUtama extends AppCompatActivity {
         Profile = (ImageButton) findViewById(R.id.imageButton);
 
     }
+    // WEW
     public void Profile_Click (View V)
     {
         Intent intent = new Intent(MenuUtama.this, Profil.class);
