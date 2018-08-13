@@ -6,7 +6,7 @@ Berikut ini fitur fitur yang ada di aplikasi ini semoga bisa menjadi referensi
 + Fitur 2
 + Fitur 3
 
-Wancana
+Fitur yang akan di tambahkan
 - Test Audio
 - Contoh Brancing dan Squance
 - Browser
