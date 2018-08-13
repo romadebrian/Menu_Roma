@@ -6,26 +6,32 @@
     android:layout_height="match_parent"
     tools:context="it.pradita.ac.id.menuroma.About">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="################## Menu Roma ################## /n
- /n
-Berikut ini fitur fitur yang ada di aplikasi ini semoga bisa menjadi referensi /n
-
-+ Fitur 1 /n
-+ Fitur 2 /n
-+ Fitur 3 /n
-
-Fitur yang akan di tambahkan  /n
-- Test Audio /n
-- Contoh Brancing dan Squance /n
-- Browser /n
-- Database Internal (SQL Lite) /n
-- Database External (Mysql Online) /n
-- Kalkulator /n
-- Senter /n
-- Pengaturan Pencerahan /n
-- Scanner QR Code /n
+        android:lineSpacingMultiplier="2"
+        android:text="##### Menu Roma ##### \n
+Version 1.0.0 \n
+Berikut ini fitur fitur yang ada di aplikasi ini semoga bisa menjadi referensi \n
++ Fitur 1 \n
++ Fitur 2 \n
++ Fitur 3 \n
+Fitur yang akan di tambahkan  \n
+- Test Audio \n
+- Contoh Brancing dan Squance \n
+- Browser \n
+- Database Internal (SQL Lite) \n
+- Database External (Mysql Online) \n
+- Kalkulator \n
+- Senter \n
+- Pengaturan Pencerahan \n
+- Scanner QR Code \n
 "/>
+
+    </LinearLayout>
 </ScrollView>

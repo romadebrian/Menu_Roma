@@ -15,13 +15,41 @@ public class MenuUtama extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_utama);
-        Profile = (ImageButton) findViewById(R.id.imageButton);
+        Profile = (ImageButton) findViewById(R.id.Profile);
+        Tools  = (ImageButton) findViewById(R.id.Tools);
+        Settings = (ImageButton) findViewById(R.id.Setting);
+        About = (ImageButton) findViewById(R.id.About);
 
-    }
-    // WEW
-    public void Profile_Click (View V)
-    {
-        Intent intent = new Intent(MenuUtama.this, Profil.class);
-        startActivity(intent);
+        Profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MenuUtama.this, Profil.class);
+                startActivity(intent);
+            }
+        });
+
+        Tools.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MenuUtama.this, Tools.class);
+                startActivity(intent);
+            }
+        });
+
+        Settings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MenuUtama.this, Pengaturan.class);
+                startActivity(intent);
+            }
+        });
+
+        About.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MenuUtama.this, About.class);
+                startActivity(intent);
+            }
+        });
     }
 }

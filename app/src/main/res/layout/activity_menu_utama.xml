@@ -20,7 +20,7 @@
         android:weightSum="10">
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/Profile"
             android:layout_height="150dp"
             android:layout_width="0dp"
             android:layout_weight="5"
@@ -28,7 +28,7 @@
             android:src="@drawable/btn_user" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/Tools"
             android:layout_height="150dp"
             android:layout_width="0dp"
             android:layout_weight="5"
@@ -40,14 +40,14 @@
         android:layout_height="match_parent"
         android:orientation="horizontal">
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/Setting"
             android:layout_height="150dp"
             android:layout_width="0dp"
             android:layout_weight="5"
             app:srcCompat="@drawable/btn_setting" />
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/About"
             android:layout_height="150dp"
             android:layout_width="0dp"
             android:layout_weight="5"
